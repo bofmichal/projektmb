@@ -9,5 +9,18 @@ body, html {
 background-color: #777;
 color: black;
 cursor: pointer;
+}
 
+.podswietlenie{
+    padding: 10px;
+}
+
+.ikony{
+    display:inline-block;    
+    font-size:inherit;
+    text-rendering:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    vertical-align:middle;
+    
 }
