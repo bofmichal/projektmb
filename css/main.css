@@ -4,7 +4,7 @@ body, html {
     color: #777;
     line-height: 1.8;
 }
-
+/*przyciski na gorze*/
 .podswietlenie:hover{
 background-color: #777;
 color: black;
@@ -21,6 +21,20 @@ cursor: pointer;
     text-rendering:auto;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
-    vertical-align:middle;
+    vertical-align:middle;    
+}
+/*zdjecia*/
+.zdjecie1 {
+    background-image: url('../images/drzewo.jpg');
+    min-height: 100%;
+    position:relative;
     
+    
+}
+
+.zdjecie1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
