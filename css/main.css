@@ -25,7 +25,7 @@ cursor: pointer;
 }
 /*zdjecia*/
 .zdjecie1 {
-    background-image: url('../images/drzewo.jpg');
+    background-image: url('../images/drzewo1.jpg');
     min-height: 100%;
     position:relative;
     
@@ -37,4 +37,39 @@ cursor: pointer;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.logo{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    white-space:nowrap;
+    display:inline-block;
+    width:auto;
+    text-align:center;
+    padding:12px 24px;
+    color:#fff;
+    background-color:#000;
+    font-size:20px;
+    letter-spacing:2px;
+    animation:opac 0.8s;
+    
+}
+
+.zawartosc{
+    max-width:980px;
+    margin:auto;
+    padding:0.01em 16px;
+    padding-top:64px;
+    padding-bottom:64px;
+
+}
+
+.omnie{
+    /*display:inline-block;*/
+    width:auto;
+    text-align:center;
+
 }
