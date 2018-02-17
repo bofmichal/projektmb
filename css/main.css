@@ -133,3 +133,15 @@ a{
 .mb{
     margin:0;
 }
+
+.sekcjaproj{
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+    padding: 0.01em 16px;
+    max-width: 980px;
+    margin: auto;
+    box-sizing: inherit;
+    display: block;
+    }
+
+    
