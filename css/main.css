@@ -14,11 +14,8 @@ body, html {
 }
 .przyciski{
     width:100%;
-    overflow:hidden;
-    /*display:inline-block;*/
-    /*width:auto; */   
-    float:left;    
-    /*border:none;*/    
+    overflow:hidden;      
+    float:left;
     position:static;
     white-space:normal;
 }
@@ -54,12 +51,8 @@ cursor: pointer;
 .zdjecie1 {
     background-image: url('../images/drzewo1.jpg');
     min-height: 100%;    
-    position:relative;
-    
-    
-}
-
-
+    position:relative;  
+    }
 
 .logo{
     position:absolute;
@@ -79,10 +72,20 @@ cursor: pointer;
     animation:opac 0.8s;    
 }
 /*ogarnac*/
-.michal{
-    display: inline-block;
-    text-align: left;
-    max-width:700px;
+.michal{    
+    width: 30%;
+    padding: 12px 24px!important;    
+    float: left;    
+}
+.michal:before, .michal:after{
+    box-sizing: inherit;
+}
+.michal1{    
+    padding: 12px 24px!important;
+    text-align: left;    
+}
+.michal1:before, .michal1:after{
+    box-sizing: inherit;
 }
 .zawartosc{
     max-width:980px;
@@ -90,16 +93,43 @@ cursor: pointer;
     padding:0.01em 16px;
     padding-top:64px;
     padding-bottom:64px;
-
 }
-
+.zawartosc:before, .zawartosc:after{
+    box-sizing: inherit;
+    content: "";
+    display: table;
+    clear: both;
+}
 .omnie{
-    /*display:inline-block;*/
     width:auto;
     text-align:center;
+    font-weight: 400;
+    margin: 10px 0;    
 }
-
+.omnie:before, .omnie:after{
+    box-sizing: inherit;
+}
+.omnie2:before, .omnie2:after{    
+    content: "";
+    display: table;
+    clear: both;
+}
 a{
     text-decoration: none;
     color: #777;
+}
+
+.obrazek{
+    border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+.obrazek:before, .obrazek:after{
+    box-sizing: inherit;
+}
+
+.mb{
+    margin:0;
 }
