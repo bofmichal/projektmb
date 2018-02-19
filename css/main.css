@@ -144,4 +144,16 @@ a{
     display: block;
     }
 
-    
+.miniatury{
+    padding: 0 8px;
+    width: 24.99999%;
+    float: left;
+    text-align: center;
+}
+.miniatury:before, .miniatury:after{
+    box-sizing: inherit;
+}
+
+.zmniejszone:hover{
+opacity: 0.60;
+}
